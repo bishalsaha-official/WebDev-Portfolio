@@ -148,7 +148,7 @@ main section{
 .about-items{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
@@ -159,4 +159,27 @@ main section{
 .item-description{
     font-weight: 600;
     font-size: 20px;
+}
+
+/* skills Section Styles */
+.skill{
+    text-align: center;
+}
+
+.skill-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.skill-item{
+    background-color: #fff;
+    padding: 15px 25px;
+    box-shadow: 0 0 5px rgb(172, 172, 172);
+    border-radius: 5px;
+}
+
+.skill-item-title{
+    margin: 10px 0;
 }
