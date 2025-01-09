@@ -8,6 +8,11 @@
 }
 
 /* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,17 +27,43 @@
     border: 0;
 }
 
+.btn-secondary{
+    font-size: 20px;
+    font-weight: 800;
+    color: #FD6E0A;
+    padding: 15px 30px;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #FD6E0A;
+}
+
+.dark-1{
+    color: #181818;
+}
+
 .dark-2{
     color: #474747;
 }
 
-/* Nav Section */
+.dark-3{
+    color: #757575;
+}
+
+/* Header Styles */
+.header{
+    background: #FFF8F3;
+    background-image: url('../Images/developer.png'), url('../Images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: left, bottom right;
+}
+
+/* Nav Styles */
 nav{
-    max-width: 1160px;
-    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 30px;
 }
 
 .nav-title{
@@ -53,4 +84,35 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-profile{
+    width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.banner-description{
+    font-size: 18px;
+    margin: 25px 0;
 }
